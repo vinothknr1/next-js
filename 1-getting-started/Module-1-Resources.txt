@@ -1,0 +1,10 @@
+Module Resources
+Attached to the last lecture of every course module, you find resources (code snapshots, slides) that belong to that module.
+
+In the previous lecture ("How To Get The Most Out Of This Course") I explain how to use these attachments.
+
+For this first course module, you find code snapshots and slides attached:
+
+Course Section Code: https://github.com/mschwarzmueller/nextjs-course-code/tree/01-getting-started
+
+Extra Files (e.g. Slides): https://github.com/mschwarzmueller/nextjs-course-code/tree/01-getting-started-extra-files

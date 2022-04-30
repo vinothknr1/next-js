@@ -1,0 +1,34 @@
+Downloading Course Code
+As mentioned in the previous lectures, code attachments are made available via Github.
+
+Unfortunately, downloading specific commits as ZIP files can lead to 404 errors - this seems to be a Github bug.
+
+If you're facing this issue, the easiest workaround is to use the Git CLI (get it here) to then clone the repository and check out the commit manually.
+
+Here's how that works:
+
+1) git clone https://github.com/mschwarzmueller/nextjs-course-code.git (requires Git CLI to be installed!)
+
+2) git branch -a => Lists all available branches => Choose the branch that fits the course section you're currently in
+
+3) git checkout <branch-name> => Check out the branch for the course section you're currently in (example: git checkout origin/10-prj-blog)
+
+4) git log => Lists all commits (code snapshots) for this branch
+
+5) git checkout <commit-id> => Checkout the specific commit
+
+This is less convenient than downloading ZIP files but it is a workaround that should work until Github fixed that issue.
+
+There also is a shortcut to checkout a specific attachment that might be linked to a lecture.
+
+For example, this lecture links to a specific commit: https://www.udemy.com/course/nextjs-react-the-complete-guide/learn/lecture/25146402#overview
+
+This is the Github link the lecture links to: https://github.com/mschwarzmueller/nextjs-course-code/tree/cab609415a42a19a29e702853ffb3ae23b64229e
+
+You can immediately see the commit id in the URL => cab609415a42a19a29e702853ffb3ae23b64229e in this case
+
+So you can get that code snapshot by running:
+
+1) git clone https://github.com/mschwarzmueller/nextjs-course-code.git
+
+2) git checkout cab609415a42a19a29e702853ffb3ae23b64229e
