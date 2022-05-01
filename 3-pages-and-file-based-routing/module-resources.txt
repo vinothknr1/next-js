@@ -1,0 +1,13 @@
+Module Resources
+Got stuck? Have an error in your code? Can't reproduce the results shown in the lectures?
+
+Compare your code to mine - below you find links to my code.
+
+Important: You can switch between different "code snapshots" by clicking on "X Commits" (where X is a number)
+
+Imageeeee
+
+
+Course Section Code: https://github.com/mschwarzmueller/nextjs-course-code/tree/02-file-based-routing
+
+Extra Files: https://github.com/mschwarzmueller/nextjs-course-code/tree/02-file-based-routing-extra-files
